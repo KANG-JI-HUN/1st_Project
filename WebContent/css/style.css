@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body {
+	background-color: #fff0B5;
+	font-size: 12px;
+}
+table {border: 2px solid #DF4B3E; width:40%; margin: 5% auto;}
+table tr { background-color: #E1B0F1; }
+table tr:hover { background-color: #F6D030;
+	cursor: pointer;
+}
+td, th {text-align: center; padding:5px;}
+caption {font-size: 25px; padding:10px;}
+h2{text-align: center; }
+a { text-decoration: none;}
+.left{text-align: left;}
+.paging {text-align: center;}
+b {color:red;}

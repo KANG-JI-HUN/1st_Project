@@ -1,0 +1,174 @@
+@CHARSET "UTF-8";
+
+/* body {
+		 width:1000px;
+         margin:0 auto;
+
+	}
+	#navi1 {
+		border-top: 10px solid #2835a4;
+		border-bottom:1px solid #cccccc;
+		
+		overflow: hidden;
+	}
+	#navi1 div{
+	 	float: left;
+	 	width: 50%;
+	 	background-color: #fd808f;
+	}
+	
+	#navi1 .left ul{
+		overflow: hidden;
+		margin: 0; 
+		padding: 0;
+	}
+	#navi1 .left ul li{
+		list-style: none;
+		font-size:.9em;
+		
+		width:20%;
+		float: left;
+		color: white;
+		height: 20px;
+		margin:1px; padding:0;
+		line-height: 20px;
+		text-align: center;
+	}
+	#navi1 .left ul li a{
+		display: block;
+        padding:1px 5px;
+        text-decoration: none;
+        color: white;
+	}
+	#navi1 .left ul li a:HOVER{
+		color: black;
+		background-color: orange;
+	}
+	#navi1 .right ul{
+		overflow: hidden;
+		margin: 0;
+		
+	}
+	#navi1 .right ul li{
+	    list-style: none;
+		width:22%;
+		float: right;
+		font-size:.9em;
+		color: white;
+		height: 20px;
+		margin:1px; padding:0;
+		line-height: 20px;
+		text-align: center;
+	}
+	#navi1 .right ul li a{
+		display: block;
+        padding:1px 5px;
+        text-decoration: none;
+        color: white;
+	}
+	#navi1 .right ul li a:HOVER{
+		color: black;
+		background-color: orange;
+	}
+	navi1
+	#navi2 {
+		width:1000px;
+		overflow: hidden;
+		border-bottom: 1px solid #004080;
+		 Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent
+background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); FF3.6-15
+background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); Chrome10-25,Safari5.1-6
+background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); IE6-9
+	}
+	#navi2 div{
+		float: left;
+		height: 80px;
+	}
+	#navi2 .left{
+		width: 30%;
+		height:80px; line-height:80px;
+		text-align: center;
+	}
+	#navi2 .center{
+		
+		width: 40%;
+		
+	}
+	#navi2 .right{
+		width: 30%;
+	}
+	#navi2 .right img{
+		margin: 20px 0 0 30px;
+	}
+	#navi2 .cnt{
+		height: 55%;
+		width:100%;
+		margin: 7px 0 0 40px;
+		
+	} 
+	#navi2 .navi{
+		height: 45%;
+		width:100%;
+		margin:0;
+		
+	}
+	#navi2 .navi ul{
+		overflow: hidden;
+		width: 100%;
+		margin: 1px;padding: 0;
+	}
+	#navi2 .navi ul li{
+		list-style: none;
+		text-align:center;
+		float: left;
+		margin:1px;
+		width: 24%;
+		height: 145%;
+		line-height: 145%;
+		border-bottom: .2px solid #004080;
+		border-radius: 0 0 5px 5px;
+	} */
+	.slide ul, li, button{
+	margin: 0;
+	padding: 0;
+	}
+	.slide img{
+		display: block;
+		border: 0;
+		
+	}
+	.slide button {
+	border: 0;
+	background: none;
+	}
+	.slide{
+	width: 640px;
+	height: 420px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+	}
+	.slide ul{
+		width: 3300px;
+		list-style: none;
+		font-size: 0;
+	}
+	.slide ul li{
+		display: inline-block;
+	}
+	.slide button.prev {
+		position: absolute;
+		left: 0;
+		top:150px;
+	}
+	.slide button.next{
+		position: absolute;
+		right: 0;
+		top:150px;
+	}
+	
+	button {
+		border: 0;
+		background: none;
+	}
